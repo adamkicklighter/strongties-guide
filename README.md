@@ -1,10 +1,10 @@
 # StrongTies Guide
 
-**An AI‑assisted guide to building meaningful professional networks**
+**An AI-assisted guide to building meaningful professional networks**
 
-StrongTies Guide is an open, practical framework for helping people network *better* — more intentionally, more authentically, and with far better outcomes than high‑volume, transactional job searching.
+StrongTies Guide is an open, practical framework for helping people network *better* — more intentionally, more authentically, and with far better outcomes than high-volume, transactional job searching.
 
-This repository is designed to be used **with an AI chatbot (such as ChatGPT)** as a step‑by‑step companion. The AI walks users through a sequence of structured prompts that help them clarify goals, map their professional network, and take concrete, human‑centered actions.
+This repository is designed to be used **with an AI chatbot (such as ChatGPT)** as a step-by-step companion. The AI acts as a tutor, guiding users through a structured sequence of prompts that help them clarify goals, map their professional network, and take concrete, human-centered actions.
 
 The guide is based on the *Deep Professional Networks* framework developed by Adam Kicklighter and presented publicly in 2025.
 
@@ -42,7 +42,7 @@ StrongTies treats your professional network as a **graph**:
 
 Networking actions are framed as **message passing**:
 
-| Graph Concept   | Real‑World Meaning                       |
+| Graph Concept   | Real-World Meaning                       |
 | --------------- | ---------------------------------------- |
 | Node embedding  | Your professional profile & reputation   |
 | Edge weight     | Strength of a relationship               |
@@ -62,46 +62,47 @@ This repo provides **guidance and structure**, not a software product.
 
 You’ll find:
 
-* A persistent **context file** you can load into AI chat sessions
-* Structured **prompt flows** for different stages of networking
-* Guidance on mindset, preparation, outreach, follow‑ups, and referrals
-* Example conversations and templates
+* A persistent **context file** (`CONTEXT.md`) for AI chat sessions
+* A `/prompts` directory containing **interactive lesson modules**
+* Structured guidance on mindset, preparation, outreach, conversations, follow-ups, and referrals
+* Example flows and reusable prompt patterns
 
 Everything here is:
 
 * Public
-* Open‑source
-* Tool‑agnostic
+* Open-source
+* Tool-agnostic
 
 ---
 
 ## How to Use This Guide
 
-### Option 1: With ChatGPT (Recommended)
+StrongTies is designed to be used **interactively**, with an AI chatbot acting as a tutor.
+
+### Quick Start (ChatGPT)
 
 1. Start a new ChatGPT conversation
-2. Paste the project context file (e.g. `CONTEXT.md`) into the chat
-3. Tell the assistant you want to use **StrongTies Guide**
-4. Follow the structured prompts step‑by‑step
+2. Paste the project context file: `CONTEXT.md`
+3. Paste the first lesson module:
 
-The AI will help you:
+   * `prompts/01_orientation_and_intent.md`
+4. Say:
 
-* Develop a clear objective statement
-* Define target markets and companies
-* Identify strong and weak ties
-* Draft thoughtful outreach messages
-* Plan follow‑ups and referrals
+> **“Act as the AI tutor described in this file and begin Module 01.”**
 
-### Option 2: With Other AI Tools
+The AI will guide you step by step.
 
-You can use the same context and prompts with:
+When a module ends, paste the next module from `/prompts` and say:
 
-* Custom GPTs
-* Claude
-* Local LLMs
-* Agent frameworks
+> **“Continue to Module 0X.”**
 
-The guide is written to be portable.
+### Important Notes
+
+* The modules are **intentionally sequenced** — do not skip ahead
+* Each module builds on artifacts from previous modules
+* The AI tutor is expected to follow each module verbatim
+
+For full details on module sequencing, tutor behavior, and advanced usage (including Custom GPT setup), see **`PROMPTS_README.md`**.
 
 ---
 
@@ -113,9 +114,9 @@ StrongTies is opinionated. It assumes:
 * You ask for **advice, not jobs**
 * Clarity comes *before* outreach
 * Rejection is feedback, not failure
-* Long‑term relationships beat short‑term tactics
+* Long-term relationships beat short-term tactics
 
-If you’re looking for growth‑hacks or mass‑application tricks, this guide is intentionally not that.
+If you’re looking for growth hacks or mass-application tricks, this guide is intentionally not that.
 
 ---
 
@@ -124,7 +125,7 @@ If you’re looking for growth‑hacks or mass‑application tricks, this guide 
 * Job seekers who dislike traditional networking
 * Career switchers seeking intentional direction
 * Data professionals, engineers, analysts
-* Students and early‑career professionals
+* Students and early-career professionals
 * Anyone who wants a calmer, more principled approach to career growth
 
 You do *not* need to be technical to use this guide.
@@ -138,9 +139,9 @@ This project is under active development.
 Planned additions:
 
 * Modular prompt packs
-* Example end‑to‑end walkthroughs
+* Example end-to-end walkthroughs
 * Tracking templates
-* Optional visual network‑mapping aids
+* Optional visual network-mapping aids
 
 Contributions and feedback are welcome.
 
