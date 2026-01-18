@@ -223,7 +223,7 @@ Refine if needed.
 
 **Transition prompt:**
 
-> When you’re ready, say:
+> When you’re ready, paste in the content for Module 05 and say:
 >
 > **“Continue to Module 05.”**
 
