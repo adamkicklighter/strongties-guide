@@ -1,2 +1,2 @@
 # strongties-guide
-An AI-assited Guide to Networking
+An AI-assisted Guide to Networking
