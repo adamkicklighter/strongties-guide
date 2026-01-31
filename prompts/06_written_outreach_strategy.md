@@ -4,7 +4,7 @@
 >
 > **Estimated time:** 30–45 minutes
 >
-> **Prerequisite:** Completion of Module 05 — Surveying & Mapping Your Existing Network
+> **Prerequisite:** Completion of Module 05.1 — Surveying & Mapping Your Existing Network
 
 ---
 

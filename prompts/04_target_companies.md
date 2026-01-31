@@ -223,9 +223,9 @@ Refine if needed.
 
 **Transition prompt:**
 
-> When you’re ready, paste in the content for Module 05 and say:
+> When you're ready, paste in the content for Module 05.1 and say:
 >
-> **“Continue to Module 05.”**
+> **"Continue to Module 05.1."**
 
 ---
 
